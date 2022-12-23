@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div>
+    <header>
+      <a href="" class="logo"><img src="images/logo.svg" alt="Snap"></a>
+
+      <div id="mobile_side_nav" class="nav-wrap">
+        <nav>
+          <button class="close-menu"><span class="visually-hidden">close menu</span> <img src="images/icon-close-menu.svg" alt="close menu"></button>
+          <ul>
+            <li class="dropdown">
+              <a href="" class="dropdown-btn">Features <img class="down" src="images/icon-arrow-down.svg" alt="arrow down"></a>
+              <div class="dropdown-content">
+                <a href=""><img src="images/icon-todo.svg" alt="todo list"> Todo List</a>
+                <a href=""><img src="images/icon-calendar.svg" alt="calendar"> Calendar</a>
+                <a href=""><img src="images/icon-reminders.svg" alt="reminders"> Reminders</a>
+                <a href=""><img src="images/icon-planning.svg" alt="planning"> Planning</a>
+              </div>
+            </li>
+            <li class="dropdown">
+              <a href="" class="dropdown-btn">Company <img class="down" src="images/icon-arrow-down.svg" alt="arrow down"></a>
+              <div class="dropdown-content">
+                <a href="">History</a>
+                <a href="">Our Team</a>
+                <a href="">Blog</a>
+              </div>
+            </li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">About</a></li>
+          </ul>
+        </nav>
+
+        <div class="nav-action">
+          <a href="">Login</a>
+          <button>Register</button>
+        </div>
+      </div>
+
+      <button class="open-menu"><span class="visually-hidden">open</span><img src="images/icon-menu.svg" alt="icon menu"></button>
+
+    </header>
+
+    <main>
+      <div class="main-content">
+        <div class="img">
+          <img class="mobile" src="images/image-hero-mobile.png" alt="">
+          <img class="desktop" src="images/image-hero-desktop.png" alt="">
+        </div>
+
+        <div class="content">
+          <h1>Make remote work</h1>
+
+          <p>Get your team in sync, no matter your location. Streamline processes,
+            create team rituals, and watch productivity soar.</p>
+
+            <button class="btn">Learn more</button>
+            
+
+            <div class="clients">
+              <img src="images/client-databiz.svg" alt="databiz">
+              <img src="images/client-audiophile.svg" alt="audiophile">
+              <img src="images/client-meet.svg" alt="meet">
+              <img src="images/client-maker.svg" alt="maker">
+            </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- 
+  
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div> 
+
+  -->
+
+
+  <script src="script/jquery-3.6.0.min.js"></script>
+  <script src="script/script.js"></script>
+
+  
+</body>
+
+</html>
